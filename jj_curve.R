@@ -1,4 +1,5 @@
 jj_curve <- function(scores){
-  sqrt(scores*100)
+  by_100 <- scores * 100
+  sq_root <- sqrt(by_100)
+  return(sq_root)
 }
-#version control
